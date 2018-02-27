@@ -1,0 +1,33 @@
+﻿{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "omsRecoveryVaultName": {
+            "value": "omsrv"
+        },
+        "omsRecoveryVaultRegion": {
+            "value": "East US 2"
+        },
+        "omsWorkspaceName": {
+            "value": "oms"
+        },
+        "omsWorkspaceRegion": {
+            "value": "East US"
+        },
+        "omsAutomationAccountName": {
+            "value": "omsauto"
+        },
+        "omsAutomationRegion": {
+            "value": "East US 2"
+        },
+        "azureAdminPwd": {
+            "value": "GEN-PASSWORD"
+        },
+        "azureAdmin": {
+            "value": "azureadmin"
+        },
+        "_artifactsLocation": {
+            "value": "https://raw.githubusercontent.com/.../oms/master/"
+        }
+    }
+}
